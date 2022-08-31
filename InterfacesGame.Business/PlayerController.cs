@@ -48,7 +48,9 @@ namespace InterfacesGame.Business
 
         private void GoUp()
         {
-            //_player.RenderOnField(_field.Tiles.ElementAt(_pos.player.ElementAt(0) + 20).Value);
+            Map<int> posupdate = _field.Tiles.ElementAt(_pos.player.ElementAt(0) - 20).Value;
+            _player.RenderOnField(posupdate);
+            _pos.player[0] = posupdate;
         }
 
         private void GoDown()

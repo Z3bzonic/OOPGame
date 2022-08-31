@@ -7,10 +7,10 @@
         /// </summary>
         ///
 
-        public List<int> rocks;
-        public List<int> monsters;
-        public List<int> rockDestroyers;
-        public List<int> player;
+        public IList<int> rocks;
+        public IList<int> monsters;
+        public IList<int> rockDestroyers;
+        public IList<int> player;
 
         public EntityPositions()
         {

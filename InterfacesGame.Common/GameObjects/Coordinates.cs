@@ -2,10 +2,10 @@
 {
     public struct Map<T>
     {
-        public int X;
-        public int Y;
+        public T X;
+        public T Y;
 
-        public Map(int x, int y) : this()
+        public Map(T x, T y) : this()
         {
             X = x;
             Y = y;
