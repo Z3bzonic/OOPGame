@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "InterfacesGame/1.0.0": {
+        "dependencies": {
+          "InterfacesGame.Business": "1.0.0",
+          "InterfacesGame.Common": "1.0.0"
+        },
+        "runtime": {
+          "InterfacesGame.dll": {}
+        }
+      },
+      "InterfacesGame.Business/1.0.0": {
+        "dependencies": {
+          "InterfacesGame.Common": "1.0.0"
+        },
+        "runtime": {
+          "InterfacesGame.Business.dll": {}
+        }
+      },
+      "InterfacesGame.Common/1.0.0": {
+        "runtime": {
+          "InterfacesGame.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InterfacesGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InterfacesGame.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InterfacesGame.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

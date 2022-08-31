@@ -1,0 +1,15 @@
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\bin\Debug\net6.0\InterfacesGame.Business.deps.json
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\bin\Debug\net6.0\InterfacesGame.Business.dll
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\bin\Debug\net6.0\InterfacesGame.Business.pdb
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\obj\Debug\net6.0\InterfacesGame.Business.csproj.AssemblyReference.cache
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\obj\Debug\net6.0\InterfacesGame.Business.GeneratedMSBuildEditorConfig.editorconfig
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\obj\Debug\net6.0\InterfacesGame.Business.AssemblyInfoInputs.cache
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\obj\Debug\net6.0\InterfacesGame.Business.AssemblyInfo.cs
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\obj\Debug\net6.0\InterfacesGame.Business.csproj.CoreCompileInputs.cache
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\obj\Debug\net6.0\InterfacesGame.Business.dll
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\obj\Debug\net6.0\refint\InterfacesGame.Business.dll
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\obj\Debug\net6.0\InterfacesGame.Business.pdb
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\obj\Debug\net6.0\ref\InterfacesGame.Business.dll
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\bin\Debug\net6.0\InterfacesGame.Common.dll
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\bin\Debug\net6.0\InterfacesGame.Common.pdb
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Business\obj\Debug\net6.0\InterfacesGame.Business.csproj.CopyComplete

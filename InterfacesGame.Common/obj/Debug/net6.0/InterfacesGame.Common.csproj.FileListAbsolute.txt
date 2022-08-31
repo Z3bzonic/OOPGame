@@ -1,0 +1,12 @@
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\bin\Debug\net6.0\InterfacesGame.Common.deps.json
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\bin\Debug\net6.0\InterfacesGame.Common.dll
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\bin\Debug\net6.0\InterfacesGame.Common.pdb
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\obj\Debug\net6.0\InterfacesGame.Common.csproj.AssemblyReference.cache
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\obj\Debug\net6.0\InterfacesGame.Common.GeneratedMSBuildEditorConfig.editorconfig
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\obj\Debug\net6.0\InterfacesGame.Common.AssemblyInfoInputs.cache
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\obj\Debug\net6.0\InterfacesGame.Common.AssemblyInfo.cs
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\obj\Debug\net6.0\InterfacesGame.Common.csproj.CoreCompileInputs.cache
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\obj\Debug\net6.0\InterfacesGame.Common.dll
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\obj\Debug\net6.0\refint\InterfacesGame.Common.dll
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\obj\Debug\net6.0\InterfacesGame.Common.pdb
+Z:\repos\Cursus\CsharpDeel2\OOP\InterfacesGame\InterfacesGame\InterfacesGame.Common\obj\Debug\net6.0\ref\InterfacesGame.Common.dll
