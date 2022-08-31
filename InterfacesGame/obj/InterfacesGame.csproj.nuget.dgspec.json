@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame\\InterfacesGame.csproj": {}
+    "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame\\InterfacesGame.csproj": {}
   },
   "projects": {
-    "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Business\\InterfacesGame.Business.csproj": {
+    "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Business\\InterfacesGame.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Business\\InterfacesGame.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Business\\InterfacesGame.Business.csproj",
         "projectName": "InterfacesGame.Business",
-        "projectPath": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Business\\InterfacesGame.Business.csproj",
+        "projectPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Business\\InterfacesGame.Business.csproj",
         "packagesPath": "C:\\Users\\Zentop\\.nuget\\packages\\",
-        "outputPath": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Business\\obj\\",
+        "outputPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj": {
-                "projectPath": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj"
+              "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj": {
+                "projectPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj": {
+    "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj",
         "projectName": "InterfacesGame.Common",
-        "projectPath": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj",
+        "projectPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj",
         "packagesPath": "C:\\Users\\Zentop\\.nuget\\packages\\",
-        "outputPath": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Common\\obj\\",
+        "outputPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,14 +128,14 @@
         }
       }
     },
-    "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame\\InterfacesGame.csproj": {
+    "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame\\InterfacesGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame\\InterfacesGame.csproj",
+        "projectUniqueName": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame\\InterfacesGame.csproj",
         "projectName": "InterfacesGame",
-        "projectPath": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame\\InterfacesGame.csproj",
+        "projectPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame\\InterfacesGame.csproj",
         "packagesPath": "C:\\Users\\Zentop\\.nuget\\packages\\",
-        "outputPath": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame\\obj\\",
+        "outputPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -157,11 +157,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Business\\InterfacesGame.Business.csproj": {
-                "projectPath": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Business\\InterfacesGame.Business.csproj"
+              "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Business\\InterfacesGame.Business.csproj": {
+                "projectPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Business\\InterfacesGame.Business.csproj"
               },
-              "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj": {
-                "projectPath": "Z:\\repos\\Cursus\\CsharpDeel2\\OOP\\InterfacesGame\\InterfacesGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj"
+              "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj": {
+                "projectPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\InterfacesGame.Common\\InterfacesGame.Common.csproj"
+              },
+              "C:\\Users\\Zentop\\source\\repos\\OOPGame\\Tests\\Tests.csproj": {
+                "projectPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\Tests\\Tests.csproj"
               }
             }
           }
@@ -175,6 +178,78 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Zentop\\source\\repos\\OOPGame\\Tests\\Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\Zentop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zentop\\source\\repos\\OOPGame\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Zentop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "xunit.core": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
