@@ -24,7 +24,10 @@ namespace InterfacesGame.Business
             while (!_check.Victory && _check.Level < 4) // todo
             {
                 _check.Victory = _check.CheckBoundry(_player.Coordinates.Id);
-                _playerControl.ControlPlayer();
+                if (!_check.Victory)
+                    _playerControl.ControlPlayer();
+                else
+                    Console.WriteLine("gewonnen");
             }
         }
     }

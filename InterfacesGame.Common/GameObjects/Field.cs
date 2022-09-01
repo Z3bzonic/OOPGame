@@ -16,7 +16,7 @@ namespace InterfacesGame.Common.GameObjects
             indexOfRocks = new List<int>();
             indexOfRockDestroyers = new List<int>();
             indexOfMonsters = new List<int>();
-            boundryTilesList = new int[40];
+            boundryTilesList = new int[59];
         }
 
         public void InitializeField()
@@ -53,6 +53,22 @@ namespace InterfacesGame.Common.GameObjects
                 }
                 count++;
                 count++;
+            }
+            count = 399;
+            for (int k = 40; k < 59; k++)
+            {
+                boundryTilesList[k] = count;
+                count--;
+            }
+            ColorBorder();
+        }
+
+        private void ColorBorder()
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            foreach (var bound in boundryTilesList)
+            {
+                RenderField(Tiles.ElementAt(bound));
             }
         }
 

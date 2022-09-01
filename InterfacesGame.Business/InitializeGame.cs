@@ -29,7 +29,7 @@ namespace InterfacesGame.Business
 
         public void SpawnPlayer()
         {
-            var randomStartPoint = _rnd.Next(379, 399);
+            var randomStartPoint = _rnd.Next(360, 379);
             _player.RenderOnField(_field.Tiles.ElementAt(randomStartPoint));
         }
 
@@ -57,7 +57,7 @@ namespace InterfacesGame.Business
         {
             for (int i = 0; i < ROCKDESTROYERS; i++)
             {
-                var rockDestroyer = new Monster();
+                var rockDestroyer = new RockDestroyer();
                 _field.indexOfRockDestroyers.Add(PickRandomTile());
                 rockDestroyer.RenderOnField(_field.Tiles.ElementAt(_field.indexOfRockDestroyers.Last()));
             }
@@ -65,7 +65,7 @@ namespace InterfacesGame.Business
 
         private int PickRandomTile()
         {
-            return _rnd.Next(21, 379);
+            return _rnd.Next(21, 359);
         }
     }
 }
