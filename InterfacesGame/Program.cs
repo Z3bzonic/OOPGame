@@ -1,4 +1,5 @@
-﻿using InterfacesGame.Business;
+﻿using InterfacesGame;
+using InterfacesGame.Business;
 using InterfacesGame.Common.GameObjects;
 
 internal class Program
@@ -7,14 +8,16 @@ internal class Program
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
+        var menu = new Menu();
         var field = new Field();
-        var pos = new EntityPositions();
-        var init = new InitializeGame(field, pos);
-        var player = new Player();
-        var playerControl = new PlayerController(field, pos, player);
-        var monsterControl = new MonsterController(field, pos);
+        var player = Player.GetPlayer();
+        var singleTile = SingleTile.GetSingleTile();
+        var init = new InitializeGame(field, player);
+        var playerControl = new PlayerController(field, player, singleTile);
+        var monsterControl = new MonsterController(field);
         var victoryAndLevels = new VictoryAndLevel();
-        var engine = new GameEngine(field, playerControl, monsterControl, victoryAndLevels, pos);
+        var engine = new GameEngine(field, playerControl, monsterControl, victoryAndLevels);
+        //int selection = menu.SelectMenu("Start", "Difficulty", "Highscores");
         init.PopulateMatrix();
         engine.LoopOver();
     }

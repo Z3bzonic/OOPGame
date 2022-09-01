@@ -5,5 +5,7 @@ namespace InterfacesGame.Common.Interfaces
     public interface IPlaceOnField
     {
         void RenderOnField(Map<int> coords);
+
+        Map<int> Coordinates { get; set; }
     }
 }

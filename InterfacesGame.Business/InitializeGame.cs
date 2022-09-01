@@ -7,17 +7,15 @@ namespace InterfacesGame.Business
         private Field _field;
         public Player _player;
         private Random _rnd;
-        private EntityPositions _pos;
-        private const int ROCKS = 5;
-        private const int ROCKDESTROYERS = 5;
-        private const int MONSTERS = 5;
+        private const int ROCKS = 5; //todo
+        private const int ROCKDESTROYERS = 5; //todo
+        private const int MONSTERS = 5; //todo
 
-        public InitializeGame(Field field, EntityPositions positions)
+        public InitializeGame(Field field, Player player)
         {
             _field = field;
             _rnd = new Random();
-            _pos = positions;
-            _player = new Player();
+            _player = player;
         }
 
         public void PopulateMatrix()
@@ -32,8 +30,7 @@ namespace InterfacesGame.Business
         public void SpawnPlayer()
         {
             var randomStartPoint = _rnd.Next(379, 399);
-            _pos.player.Add(randomStartPoint);
-            _player.RenderOnField(_field.Tiles.ElementAt(randomStartPoint).Value);
+            _player.RenderOnField(_field.Tiles.ElementAt(randomStartPoint));
         }
 
         private void MakeRocks()
@@ -41,9 +38,8 @@ namespace InterfacesGame.Business
             for (int i = 0; i < ROCKS; i++)
             {
                 var randomposition = PickRandomTile();
-                _pos.rocks.Add(randomposition);
                 var rock = new Rock();
-                rock.RenderOnField(_field.Tiles.ElementAt(randomposition).Value);
+                rock.RenderOnField(_field.Tiles.ElementAt(randomposition));
             }
         }
 
@@ -52,9 +48,8 @@ namespace InterfacesGame.Business
             for (int i = 0; i < MONSTERS; i++)
             {
                 var randomposition = PickRandomTile();
-                _pos.monsters.Add(randomposition);
                 var monster = new Monster();
-                monster.RenderOnField(_field.Tiles.ElementAt(randomposition).Value);
+                monster.RenderOnField(_field.Tiles.ElementAt(randomposition));
             }
         }
 
@@ -63,9 +58,8 @@ namespace InterfacesGame.Business
             for (int i = 0; i < ROCKDESTROYERS; i++)
             {
                 var randomposition = PickRandomTile();
-                _pos.rockDestroyers.Add(randomposition);
                 var rockDestroyer = new RockDestroyer();
-                rockDestroyer.RenderOnField(_field.Tiles.ElementAt(randomposition).Value);
+                rockDestroyer.RenderOnField(_field.Tiles.ElementAt(randomposition));
             }
         }
 

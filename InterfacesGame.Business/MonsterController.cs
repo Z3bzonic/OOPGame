@@ -5,12 +5,10 @@ namespace InterfacesGame.Business
     public class MonsterController
     {
         private Field field;
-        private EntityPositions pos;
 
-        public MonsterController(Field field, EntityPositions pos)
+        public MonsterController(Field field)
         {
             this.field = field;
-            this.pos = pos;
         }
     }
 }

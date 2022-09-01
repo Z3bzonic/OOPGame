@@ -2,28 +2,27 @@
 {
     public class Field
     {
-        public Dictionary<int, Map<int>> Tiles { get; set; }
+        public IList<Map<int>> Tiles { get; set; }
 
         public Field()
         {
-            Tiles = new Dictionary<int, Map<int>>();
+            Tiles = new List<Map<int>>();
         }
 
         public void InitializeField()
         {
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WindowHeight = 40;
-            Console.WindowWidth = 80;
-            var numberOfTiles = 40;
-            var z = 0;
-            for (var y = 0; y < numberOfTiles; y += 2)
+            const int _numberOfTiles = 40;
+            var id = 0;
+            for (var i = 0; i < _numberOfTiles; i += 2)
             {
-                for (var i = 0; i < numberOfTiles * 2; i += 4)
+                for (var y = 0; y < _numberOfTiles * 2; y += 4)
                 {
-                    var temp = new Map<int>(i, y);
+                    var temp = new Map<int>(y, i);
+                    temp.Id = id;
                     RenderField(temp);
-                    Tiles.Add(z, temp);
-                    z++;
+                    Tiles.Add(temp);
+                    id++;
                 }
             }
         }

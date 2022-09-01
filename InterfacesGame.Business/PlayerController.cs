@@ -5,23 +5,20 @@ namespace InterfacesGame.Business
     public class PlayerController
     {
         private Field _field;
-        private EntityPositions _pos;
         private Player _player;
+        private SingleTile _singleTile;
 
-        public PlayerController(Field field, EntityPositions pos, Player player)
+        public PlayerController(Field field, Player player, SingleTile singleTile)
         {
             _field = field;
-            _pos = pos;
             _player = player;
+            _singleTile = singleTile;
         }
 
         public void ControlPlayer()
         {
-            if (Console.KeyAvailable)
-            {
-                var key = Console.ReadKey();
-                ChangeDirection(key);
-            }
+            var key = Console.ReadKey();
+            ChangeDirection(key);
         }
 
         private void ChangeDirection(ConsoleKeyInfo richting)
@@ -48,24 +45,26 @@ namespace InterfacesGame.Business
 
         private void GoUp()
         {
-            Map<int> posupdate = _field.Tiles.ElementAt(_pos.player.ElementAt(0) - 20).Value;
-            _player.RenderOnField(posupdate);
-            _pos.player[0] = posupdate;
+            _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
+            _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id - 20));
         }
 
         private void GoDown()
         {
-            throw new NotImplementedException();
+            _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
+            _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id + 20));
         }
 
         private void GoLeft()
         {
-            throw new NotImplementedException();
+            _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
+            _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id - 1));
         }
 
         private void GoRight()
         {
-            throw new NotImplementedException();
+            _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
+            _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id + 1));
         }
     }
 }
