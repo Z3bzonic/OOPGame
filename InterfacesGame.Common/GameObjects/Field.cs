@@ -1,12 +1,22 @@
-﻿namespace InterfacesGame.Common.GameObjects
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace InterfacesGame.Common.GameObjects
 {
     public class Field
     {
         public IList<Map<int>> Tiles { get; set; }
+        public List<int> indexOfRocks { get; set; }
+        public List<int> indexOfRockDestroyers { get; set; }
+        public List<int> indexOfMonsters { get; set; }
+        public int[] boundryTilesList { get; set; }
 
         public Field()
         {
             Tiles = new List<Map<int>>();
+            indexOfRocks = new List<int>();
+            indexOfRockDestroyers = new List<int>();
+            indexOfMonsters = new List<int>();
+            boundryTilesList = new int[40];
         }
 
         public void InitializeField()
@@ -24,6 +34,25 @@
                     Tiles.Add(temp);
                     id++;
                 }
+            }
+            InitializeBoundries();
+        }
+
+        private void InitializeBoundries()
+        {
+            var count = 0;
+            for (int i = 0; i < Tiles.Count * 2; i += 20)
+            {
+                if (count < 40)
+                {
+                    boundryTilesList[count] += i;
+                }
+                if (count > 2 && count < 39)
+                {
+                    boundryTilesList[count + 1] += i - 1;
+                }
+                count++;
+                count++;
             }
         }
 

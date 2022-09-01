@@ -21,9 +21,9 @@ namespace InterfacesGame.Business
             ChangeDirection(key);
         }
 
-        private void ChangeDirection(ConsoleKeyInfo richting)
+        private void ChangeDirection(ConsoleKeyInfo direction)
         {
-            switch (richting.Key)
+            switch (direction.Key)
             {
                 case ConsoleKey.UpArrow:
                     GoUp();
@@ -45,26 +45,54 @@ namespace InterfacesGame.Business
 
         private void GoUp()
         {
-            _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
-            _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id - 20));
+            if (CanMove(_player.Coordinates.Id - 20))
+            {
+                _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
+                _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id - 20));
+            }
         }
 
         private void GoDown()
         {
-            _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
-            _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id + 20));
+            if (CanMove(_player.Coordinates.Id + 20))
+            {
+                _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
+                _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id + 20));
+            }
         }
 
         private void GoLeft()
         {
-            _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
-            _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id - 1));
+            if (CanMove(_player.Coordinates.Id - 1))
+            {
+                _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
+                _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id - 1));
+            }
         }
 
         private void GoRight()
         {
-            _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
-            _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id + 1));
+            if (CanMove(_player.Coordinates.Id + 1))
+            {
+                _singleTile.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id));
+                _player.RenderOnField(_field.Tiles.ElementAt(_player.Coordinates.Id + 1));
+            }
+        }
+
+        private bool CanMove(int indexId)
+        {
+            if (_field.indexOfMonsters.Contains(indexId))
+                return false;
+            if (_field.indexOfRockDestroyers.Contains(indexId))
+                return false;
+            if (_field.indexOfRocks.Contains(indexId))
+                return false;
+            if (Enumerable.Range(379, 399).Contains(indexId))
+                return false;
+            if (_field.boundryTilesList.Contains(indexId))
+                return false;
+            else
+                return true;
         }
     }
 }

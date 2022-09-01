@@ -37,9 +37,9 @@ namespace InterfacesGame.Business
         {
             for (int i = 0; i < ROCKS; i++)
             {
-                var randomposition = PickRandomTile();
                 var rock = new Rock();
-                rock.RenderOnField(_field.Tiles.ElementAt(randomposition));
+                _field.indexOfRocks.Add(PickRandomTile());
+                rock.RenderOnField(_field.Tiles.ElementAt(_field.indexOfRocks.Last()));
             }
         }
 
@@ -47,9 +47,9 @@ namespace InterfacesGame.Business
         {
             for (int i = 0; i < MONSTERS; i++)
             {
-                var randomposition = PickRandomTile();
                 var monster = new Monster();
-                monster.RenderOnField(_field.Tiles.ElementAt(randomposition));
+                _field.indexOfMonsters.Add(PickRandomTile());
+                monster.RenderOnField(_field.Tiles.ElementAt(_field.indexOfRocks.Last()));
             }
         }
 
@@ -57,9 +57,9 @@ namespace InterfacesGame.Business
         {
             for (int i = 0; i < ROCKDESTROYERS; i++)
             {
-                var randomposition = PickRandomTile();
-                var rockDestroyer = new RockDestroyer();
-                rockDestroyer.RenderOnField(_field.Tiles.ElementAt(randomposition));
+                var rockDestroyer = new Monster();
+                _field.indexOfRockDestroyers.Add(PickRandomTile());
+                rockDestroyer.RenderOnField(_field.Tiles.ElementAt(_field.indexOfRockDestroyers.Last()));
             }
         }
 

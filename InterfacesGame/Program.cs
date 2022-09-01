@@ -15,8 +15,8 @@ internal class Program
         var init = new InitializeGame(field, player);
         var playerControl = new PlayerController(field, player, singleTile);
         var monsterControl = new MonsterController(field);
-        var victoryAndLevels = new VictoryAndLevel();
-        var engine = new GameEngine(field, playerControl, monsterControl, victoryAndLevels);
+        var checks = new Checks();
+        var engine = new GameEngine(field, playerControl, monsterControl, checks);
         //int selection = menu.SelectMenu("Start", "Difficulty", "Highscores");
         init.PopulateMatrix();
         engine.LoopOver();
